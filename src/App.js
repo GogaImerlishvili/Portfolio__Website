@@ -1,9 +1,15 @@
+import './App.scss'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
-  );
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+      </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App
