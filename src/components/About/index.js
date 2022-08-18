@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar'
 import { useEffect, useState } from 'react'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Loader from 'react-loaders'
 import {
   faBootstrap,
   faCss3,
@@ -76,6 +77,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Loader type="pacman" />
     </>
   )
 }
