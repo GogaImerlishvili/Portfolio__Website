@@ -58,7 +58,9 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="logo-s">
+          <Logo />
+        </div>
       </div>
       <Loader type="pacman" />
     </>

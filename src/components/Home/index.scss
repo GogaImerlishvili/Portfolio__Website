@@ -77,3 +77,38 @@ h2{
         color: #333;
     }
 }
+
+
+// @media (max-width: 1344px){
+//     .logo-container{
+//      max-width: 250px;
+//     }
+// }
+
+// @media (max-width: 1200px){
+//     .logo-container{
+//      max-width: 250px;
+//     }
+
+//     .solid-logo{
+//         width: 409px;
+//         height: 409px;
+//     }
+// }
+
+@media (max-width: 544px){
+  .home-page{
+    .text-zone{
+        position: absolute;
+        left: 25%;
+        
+    }
+    .logo-container{
+        display: none;
+    }
+    h1{
+        font-size: 35px;
+    }
+  }
+}
+
