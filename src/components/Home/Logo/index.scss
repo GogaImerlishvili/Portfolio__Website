@@ -22,8 +22,8 @@
     top: auto;
     right: auto;
     bottom: auto;
-    width: 609px;
-    height: 609px;
+    width: 409px;
+    height: 409px;
     margin-top: 15%;
     margin-left: -65%;
     border-radius: 50%;
@@ -32,5 +32,58 @@
     animation-fill-mode: forwards;
 }
 }
+
+@media (max-width: 1344px){
+    .logo-container{
+     max-width: 250px;
+    }
+}
+
+@media (max-width: 1200px){
+    .logo-container{
+     max-width: 250px;
+    }
+
+    .solid-logo{
+        width: 409px;
+        height: 409px;
+    }
+}
+
+@media (max-width: 1131px){
+    .logo-container{
+    max-width: 200px;
+    }
+
+    .solid-logo{
+        width: 409px;
+        height: 409px;
+    }
+}
+
+@media (max-width: 1000px){
+    .logo-container{
+    max-width: 150px;
+    }
+
+    .solid-logo{
+        width: 409px;
+        height: 409px;
+    }
+}
+
+@media (max-width: 544px){
+    .logo-container{
+    display: none;
+    }
+
+    .solid-logo{
+        width: 409px;
+        height: 409px;
+    }
+}
+
+
+
 
 

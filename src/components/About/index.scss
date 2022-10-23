@@ -74,3 +74,12 @@
         transform: rotateX(90deg) 
     }
 }
+
+@media (max-width: 944px){
+    .about-page{
+
+      .text-zone p{
+       font-size: 14    px;
+      }
+    }
+  }
